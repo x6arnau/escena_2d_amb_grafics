@@ -1,20 +1,14 @@
 package com.example.pintar;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
-
-import android.annotation.SuppressLint;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     Button b;
     ExempleView vistaExemple;
     /** Called when the activity is first created. */
-    @SuppressLint("MissingInflatedId")
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
